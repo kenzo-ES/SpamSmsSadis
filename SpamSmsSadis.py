@@ -219,4 +219,4 @@ def Spam():
 	sleep(1.3)
 
 if __name__ == '__main__':
-    spam()
+    Spam()
