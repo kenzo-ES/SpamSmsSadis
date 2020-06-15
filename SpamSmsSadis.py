@@ -15,13 +15,13 @@ merah = '\x1b[1;91m'
 gelap = '\x1b[0;37m'
 
 logo = """
-%s ___ _ __   __ _ _ __ ___  _ __ ___   ___ _ __
-/ __| '_ \ / _` | '_ ` _ \| '_ ` _ \ / _ \ '__|
-\__ \ |_) | (_| | | | | | | | | | | |  __/ |
-|___/ .__/ \__,_|_| |_| |_|_| |_| |_|\___|_|
-    | | %sAuthor %s: %sYT - ES Pro Kontrak
+%s ___ _ __   __ _ _ __ _
+/ __| '_ \ / _` | '_ ` _ \
+\__ \ |_) | (_| | | | | | |
+|___/ .__/ \__,_|_| |_| |_|
+    | | %sAuthor %s: %sYT - ES Pro Kontrak (Subcribe Heeh)
 %s    |_| %sGithub %s: %shttps://github.com/kenzo-ES
-"""%(cyan,hijau,merah,putih,cyan,hijau,merah,putih)
+"""%(kuning,hijau,merah,putih,kuning,hijau,merah,putih)
 
 def main():
     os.system('clear')
