@@ -212,11 +212,11 @@ def pilih():
 
 def Spam():
 	os.system('clear')
-	print(C+'Subscribe YT'+W+' Gua cok!'+C+' :V')
+	print(Subscribe YT Gua cok! :V')
 	sleep(1.5)
 	os.system('xdg-open https://www.youtube.com/channel/UCYTVSQMwd95JE6PLgSBzliw?sub_confirmation=1')
 	os.system('clear')
 	sleep(1.3)
 
 if __name__ == '__main__':
-    main()
+    spam()
