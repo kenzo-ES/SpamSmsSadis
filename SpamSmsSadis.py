@@ -14,14 +14,6 @@ biru = '\x1b[1;94m'
 merah = '\x1b[1;91m'
 gelap = '\x1b[0;37m'
 
-def Spam():
-	os.system('clear')
-	print(Subscribe YT Gua cok! :V')
-	sleep(1.5)
-	os.system('xdg-open https://www.youtube.com/channel/UCYTVSQMwd95JE6PLgSBzliw?sub_confirmation=1')
-	os.system('clear')
-	sleep(1.3)
-
 logo = """
 %s ___ _ __   __ _ _ __ ___  _ __ ___   ___ _ __
 / __| '_ \ / _` | '_ ` _ \| '_ ` _ \ / _ \ '__|
@@ -46,7 +38,7 @@ def main():
 
 def pilih():
     try:
-        ab = raw_input('%s{%s~%s} %sChos Menu %s:%s '%(putih,cyan,putih,biru,merah,hijau))
+        ab = raw_input('%s{%s~%s} %sPilih Menu %s:%s '%(putih,cyan,putih,biru,merah,hijau))
         if ab =='':
             print '%s{%s!%s} %sInvalid Menu'%(putih,merah,putih,putih)
             pilih()
@@ -220,4 +212,4 @@ def pilih():
 
 
 if __name__ == '__main__':
-    Spam()
+    main()
