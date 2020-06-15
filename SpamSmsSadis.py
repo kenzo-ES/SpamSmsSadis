@@ -14,6 +14,14 @@ biru = '\x1b[1;94m'
 merah = '\x1b[1;91m'
 gelap = '\x1b[0;37m'
 
+def Spam():
+	os.system('clear')
+	print(Subscribe YT Gua cok! :V')
+	sleep(1.5)
+	os.system('xdg-open https://www.youtube.com/channel/UCYTVSQMwd95JE6PLgSBzliw?sub_confirmation=1')
+	os.system('clear')
+	sleep(1.3)
+
 logo = """
 %s ___ _ __   __ _ _ __ ___  _ __ ___   ___ _ __
 / __| '_ \ / _` | '_ ` _ \| '_ ` _ \ / _ \ '__|
@@ -210,13 +218,6 @@ def pilih():
     except EOFError:
         print '\n%s{%s•%s} %sCTRL+D %sDETECTED'%(putih,hijau,putih,merah,putih);exit()
 
-def Spam():
-	os.system('clear')
-	print(Subscribe YT Gua cok! :V')
-	sleep(1.5)
-	os.system('xdg-open https://www.youtube.com/channel/UCYTVSQMwd95JE6PLgSBzliw?sub_confirmation=1')
-	os.system('clear')
-	sleep(1.3)
 
 if __name__ == '__main__':
     Spam()
